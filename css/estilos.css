@@ -131,4 +131,13 @@ body {
 		justify-content: center;
 	}
 
+	#img-secundaria {
+		flex-direction: column;
+	}
+	
+	#img-secundaria a {
+		margin: 2% 5%;
+		width: 90%;
+	}
 }
+
