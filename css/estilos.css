@@ -4,10 +4,9 @@ body {
 	font-family: 'Dancing Script', cursive;
 	background-color: #02010a;
 	color: white;
+	box-sizing: border-box;
 }
-#contenido {
-	width: 900px;
-}
+
 
 #actual {
 	text-decoration: none;
@@ -15,7 +14,6 @@ body {
 
 #cabecera {
 	width: 100%;
-
 	background-color: #5b7989;
 	float: right;
 	border-radius: 10px 10px 0px 0px;
@@ -54,4 +52,33 @@ body {
 	
 	color: white;
 	padding: 1vh;
+}
+
+@media (min-width: 900px) {
+#contenido {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+
+@media (max-width: 900px) {
+	#contenido {
+		width: 100%;
+	}
+
+
+	#cabecera h1 {
+		width: auto;
+		display: block;
+		text-align: center;
+	}
+	
+	#navegacion ul {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
 }
