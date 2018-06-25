@@ -103,6 +103,32 @@ body {
 	padding: 1vh;
 }
 
+footer {
+	background-color: #C6d5c5;
+		display: flex;
+	flex-flow: row wrap;
+	border-radius: 0 0 10px 10px;
+	color: black;
+}
+
+footer div {
+	width: 20%;
+	padding: 2.5%;
+	
+}
+
+footer div img {
+	width: 20px;
+	padding: 0.2em;
+	vertical-align: bottom;
+}
+
+footer div a{
+	text-decoration: none;
+	color: black;
+
+
+}
 
 @media (min-width: 900px) {
 #contenido {
@@ -139,5 +165,15 @@ body {
 		margin: 2% 5%;
 		width: 90%;
 	}
-}
 
+	footer {
+		flex-direction: column;
+		align-content: center;
+
+	}
+
+	footer div {
+		width: 100%;
+		text-align: center;
+	}
+}
