@@ -112,6 +112,20 @@ body {
 	padding: 2% 3%;
 }
 
+#img-1{
+	-webkit-filter: blur(10px);
+}
+
+#img-3 {
+	-webkit-filter: sepia(90%);
+	
+}
+
+#img-2, #img-4, #img-6{
+	-webkit-filter: grayscale(100%);
+}
+
+
 footer {
 	background-color: #C6d5c5;
 		display: flex;
