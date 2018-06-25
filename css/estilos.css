@@ -103,6 +103,15 @@ body {
 	padding: 1vh;
 }
 
+#galeria {
+	background-color:  #d5c75f;
+}
+
+#galeria img {
+	width: 27%;
+	padding: 2% 3%;
+}
+
 footer {
 	background-color: #C6d5c5;
 		display: flex;
@@ -175,5 +184,15 @@ footer div a{
 	footer div {
 		width: 100%;
 		text-align: center;
+	}
+
+	#galeria {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	#galeria img{
+		width: 90%;
+		padding: 5%;
 	}
 }
